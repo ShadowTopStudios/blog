@@ -1,5 +1,5 @@
 ---
-title: How to deploy your blog to Deno Deploy
+title: Just another test page with loris ipsum
 published_at: 2022-09-24
 ---
 

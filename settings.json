@@ -1,0 +1,5 @@
+{ 
+	"client_id": "327621963440-va9bpfopnrbhjaui9naakmhr48gkj93q.apps.googleusercontent.com", 
+	"client_secret": "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", 
+	"redirect_url": "http://localhost:8000/authLogin" 
+}
