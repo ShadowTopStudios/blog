@@ -13,7 +13,7 @@ export function HomeHeader(props: any) {
    DO NOT ADD LOGIC OUTSIDE THIS FUNCTION AS IT ONLY RUNS ONCE.
   */
 
-  let userProfile = localStorage.getItem('profile_info');
+  let userProfile = localStorage?.getItem('profile_info');
   // console.log(userProfile);
 
   if(userProfile !== null){
