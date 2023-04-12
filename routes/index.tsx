@@ -22,7 +22,7 @@ export const handler: Handlers<Data, State> = {
     const cookies = headers.get("cookie");
     console.log(cookies);
     let name = "";
-    cookies.split(";").forEach((cookie) => {
+    cookies?.split(";").forEach((cookie) => {
       // console.log(cookie);
       let thing = cookie.toString();
       if(thing.includes("name=")){
