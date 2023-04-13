@@ -13,13 +13,13 @@ export function HomeHeader(props: any) {
    DO NOT ADD LOGIC OUTSIDE THIS FUNCTION AS IT ONLY RUNS ONCE.
   */
 
-  let userProfile = localStorage?.getItem('profile_info');
-  // console.log(userProfile);
+  // let userProfile = localStorage?.getItem('profile_info');
+  // // console.log(userProfile);
 
-  if(userProfile !== null){
-    console.log("user is logged in");
-    userProfile = JSON.parse(userProfile);
-  }
+  // if(userProfile !== null){
+  //   console.log("user is logged in");
+  //   userProfile = JSON.parse(userProfile);
+  // }
 
   // urlencode OAuth login url
   let google_oauth_url = new URL('https://accounts.google.com/o/oauth2/v2/auth');
